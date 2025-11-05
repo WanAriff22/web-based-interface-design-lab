@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Student Daily Spending Survey(with Calculator)</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <div id="header" style="background-color: aquamarine;height: 150px;text-align: center;line-height: 65px;">
+      <h1>Student Daily Spending Survey (with Calculator)</h1>
+      <span><strong>My wallet is like an onion,</span>
+      <em>opening it make me cry</strong></em>
+    </div>
+    <!-- Content Section -->
+     <div id="content" style="background-color: burlywood;float:left;width: 100%;text-align: center;height: 500px;line-height: 29px;">
+      <h2>Survey:</h2>
+      <form action="">
+        <label for="name">Name:</label>
+        <input type="name" id="name" placeholder="Please enter your name" required>
+        <br><br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" placeholder="Please enter your email" required>
+        <br><br>
+        <label for="number">Daily Spending:</label>
+        <input type="number" id="number" placeholder="Please enter your daily spending" required>
+        <br><br>
+        <label for="date">Survey Answered Date:</label>
+        <input type="date" id="date" required>
+        <br><br>
+        <label for="satisfaction">Survey Satisfaction Level:</label>
+        1 <input type="range" id="satisfaction" min="0" max="10" value="0"> 10
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+      <!-- Inline Calculator -->
+      <div id="calculator" style="background-color: violet;height: 100px; line-height: 40px;">
+        <h2>Inline Calculator:</h2>
+        <form oninput="result.value=parseInt(n1.value)+parseInt(n2.value)">
+          <input type="number" id="n1" value="0"> +
+          <input type="number" id="n2" value="0"> = 
+          <output name="result" for="n1 n2"> 0 </output>
+        </form>
+      </div>
+    </div>
+    <!-- Footer Section -->
+    <div id="footer" style="clear: left;background-color: lightgray;text-align: center;font-style: italic;height: 30px;line-height: 30px;">
+      Email me at arepwan@gmail.com || Wan Ariff Daily Spending Survey Website&copy;
+    </div>
+  </body>
+</html>
