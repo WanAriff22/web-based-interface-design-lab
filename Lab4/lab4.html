@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Daily Spending With Upin Ipin Buying Food Vid</title>
+
+    <!-- 4. Apply CSS Sytling -->
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+     <style type="text/css">
+      header {
+        text-align: center;
+        background-color: goldenrod;
+        padding: 25px;
+      }
+      nav {
+        background-color: darkorchid;
+        text-align: center;
+        padding: 10px;
+      }
+      nav a {
+        padding: 5px;
+        background-color: deeppink;
+        border-radius: 20%;
+      }
+      section {
+        background-color: mediumspringgreen;
+        float: left;
+        width:40%;
+      }
+      section h3 {
+        text-decoration: underline;
+        text-align: center;
+      }
+      article {
+        float: right;
+        width: 60%;
+        background-color: khaki;
+        text-align: center;
+        height: 463px;
+      }
+      footer {
+        clear: both;
+        text-align: center;
+        background-color: lightgray;
+        padding: 10px;
+        font-style: italic;
+      }
+     </style>
+  </head>
+  <body>
+    <!-- 2. Define the Structure -->
+    <header>
+      <h1>Student Daily Spending</h1>
+      <p>Also includes a video for those gen z with small attention span</p>
+    </header>
+    <nav>
+      <a href="https://fskm.umt.edu.my/?page_id=29065">About</a>
+      <a href="https://fskm.umt.edu.my/">Home</a>
+      <a href="https://fskm.umt.edu.my/?page_id=43462">Directory</a>
+    </nav>
+    <!-- 3. Insert Media -->
+    <section>
+      <h3>Upin Ipin Video</h3>
+      <video height="350" width="600" controls>
+        <source src="upinipin.mp4" type="video/mp4">
+      </video>
+      <p><em>Video Caption: Upin Ipin buying foods during Ramadhan.</em></p>
+    </section>
+    <!-- 5. Interactive Elements -->
+    <article>
+      <h2>Student Daily Spending Survey</h2>
+      <form action="">
+        <label for="name">Name:</label>
+        <input type="name" id="name" placeholder="Please enter your name" required>
+        <br><br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" placeholder="Please enter your email" required>
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="hobby">Hobbies:</label>
+        <input type="checkbox" id="watching video" name="hobby" value="Watching Video">
+        <label for="watching video">Watching Video</label>
+        <input type="checkbox" id="swimming" name="hobby" value="Swimming">
+        <label for="swimming">Swimming</label>
+        <input type="checkbox" id="cafe hunting" name="hobby" value="Cafe Hunting">
+        <label for="cafe hunting">Cafe Hunting</label>
+        <br><br>
+        <label for="number">Daily Spending:</label>
+        <input type="number" id="number" placeholder="Please enter your daily spending" required>
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </article>
+    <footer>
+      Email me at arepwan@gmail.com || Wan Ariff Daily Spending Survey Website&copy;
+    </footer>
+  </body>
+</html>
