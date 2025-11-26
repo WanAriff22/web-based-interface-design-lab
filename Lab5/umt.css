@@ -1,0 +1,73 @@
+html,body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #2F0E52;
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: white;
+}
+.logo img {
+  height: 60px;
+}
+.about {
+  color: #2F0E52;
+}
+nav {
+  align-items: center;
+  padding: 10px 0;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.link a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+.link a:hover {
+  background-color: #3f1570;
+}
+.sectionAboutUMT img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.sectionAboutUMT p {
+  color: white;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.1);
+}
+footer {
+  text-align: center;
+  background-color: lightgray;
+  padding: 10px;
+  font-style: italic;
+  margin-top: auto;
+}
